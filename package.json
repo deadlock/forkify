@@ -1,27 +1,28 @@
 {
-  "name": "starter",
+  "name": "forkify",
   "version": "1.0.0",
-  "description": "",
+  "description": "forkify project",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "keywords": [],
-  "author": "Diogo Simão",
+  "author": "Jonas Schmedtmann",
   "license": "ISC",
   "devDependencies": {
-    "html-webpack-plugin": "^4.0.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "babel-core": "^6.26.3",
+    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "babel-polyfill": "^6.26.0"
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "fractional": "^1.0.0",
+    "uniqid": "^4.1.1"
   }
 }
